@@ -16,7 +16,7 @@ function getData(meals) {
     meals.forEach(element => {
         const elements = document.createElement('div');
         elements.className = "col-6 col-md-4";
-        elements.innerHTML = `<div class="card m-5" style="width: 18rem;">
+        elements.innerHTML = `<div class="card m-3 shadow-sm p-3 mb-5 bg-white rounded border border-light" style="width: 18rem;">
   <img src='${element.strMealThumb}' class="card-img-top" alt="...">
   <div class="card-body">
     <h6 class="card-title">${element.strMeal}</h6>
