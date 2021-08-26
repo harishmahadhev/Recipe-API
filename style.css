@@ -1,0 +1,8 @@
+* {
+    font-family: 'Roboto';
+}
+
+.instructions {
+    overflow-y: hidden;
+    height: 50px;
+}
